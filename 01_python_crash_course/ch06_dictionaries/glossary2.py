@@ -1,0 +1,13 @@
+glossary = {
+	'list': "List items are ordered, changeable, and allow duplicate values.",
+	'tuple': "A tuple is a collection which is ordered and unchangeable.",
+	'set': ":A set is a collection which is unordered, unchangeable*" +
+		", and unindexed.",
+	'dictionary': "A dictionary is a collection which is ordered*, changeable" +
+		" and do not allow duplicates.",
+	'class': 'A Class is like an object constructor, or a "blueprint"' +
+		' for creating objects.'
+}
+
+for key, value in glossary.items():
+	print(key.title() + ": " + value)

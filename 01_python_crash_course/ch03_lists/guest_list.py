@@ -1,0 +1,10 @@
+guest_list = ['Jeff Dean', 'Venkat Subramaniam', 'Linus Torvalds']
+print("I would like to pick the brain of " + guest_list[0])
+print(guest_list[-2] + " will teach me some functional programming.")
+print("I would like to learn Linux from " + guest_list.pop())
+guest_list.append('Brian Kernigan')
+print(guest_list[-1] + " can;t make to the dinner")
+guest_list.remove('Brian Kernigan')
+guest_list.append("Josh Long")
+print("The guests are ")  
+print(guest_list)
